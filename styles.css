@@ -1,0 +1,121 @@
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 5%;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    margin-top: 2%;
+}
+
+h2 {
+    color: red;
+    margin-top: 2%;
+}
+
+a {
+    color: red;
+}
+
+.content {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 10%;   
+    text-align: left;
+}
+
+hr {
+    border: 1px solid lightblue;
+}
+
+.form-container {
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 2%;
+    background-color: white;
+    border: 2px solid lightblue;
+}
+
+fieldset {
+    border: 1px solid lightblue;
+    padding: 2%;
+    margin-bottom: 2%;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 1%;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 98%;
+    padding: 1%;
+    margin-bottom: 1%;
+    border: 1px solid gray;
+}
+
+table {
+    border: 2px solid gray;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10%;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+button[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    padding: 1% 2%;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: darkred;
+}
+
+
+.form-container {
+    max-width: 70%; 
+    margin: 0 auto;
+    padding: 2%;
+    background-color: white;
+    border: 2px solid lightblue;
+}
+
+#formulario-contacto {
+    background-color: lightgrey;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+#formulario-contacto input[type="text"],
+#formulario-contacto input[type="email"],
+#formulario-contacto textarea {
+    width: 96%;
+    padding: 2%;
+    margin-bottom: 2%;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+footer {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 1%;
+    margin-top: 10%;
+}

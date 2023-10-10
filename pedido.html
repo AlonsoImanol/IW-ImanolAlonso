@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Carniceria Paco</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+
+<body>
+
+    <form action="granjas.html" method="post">
+        <h1>Carniceria Paco</h1>
+        <p>
+            <a href="index.html">Volver</a>
+        </p>
+        <div class="form-container">
+            <fieldset>
+                <legend>Datos de contacto:</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre"><br>
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos"><br>
+                <label for="telefono">Teléfono:</label>
+                <input type="text" id="telefono" name="telefono"><br>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email"><br>
+                <label for="direccion">Dirección:</label>
+                <input type="text" id="direccion" name="direccion"><br>
+            </fieldset>
+            <fieldset>
+            <table id="pedido-tabla">
+                <tr>
+                    <td>
+                        <img src="Fotos/salchichas.jpeg" alt="Image 1" width="100" height="100">
+                    </td>
+                    <td>
+                        <label>
+                            <input type="checkbox" name="name_radio" value="Salchichas"> Salchichas (500g)
+                        </label>
+                    </td>
+                    <td>
+                        <img src="Fotos/hamburguesa.jpeg" alt="Image 1" width="100" height="100">
+                    </td>
+                    <td>
+                        <label>
+                            <input type="checkbox" name="name_radio" value="Hamburguesas"> Hamburguesas (500g)
+                        </label>
+                    </td>
+                    <td>
+                        <img src="Fotos/pollo.jpeg" alt="Image 1" width="100" height="100">
+                    </td>
+                    <td>
+                        <label>
+                            <input type="checkbox" name="name_radio" value="PechugasDePollo"> Pechugas De Pollo (1Kg)
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="Fotos/entrecot.jpeg" alt="Image 1" width="100" height="100">
+                    </td>
+                    <td>
+                        <label>
+                            <input type="checkbox" name="name_radio" value="entrecot"> Entrecot (1kg)
+                        </label>
+                    </td>
+                    <td>
+                        <img src="Fotos/filetesPavo.jpeg" alt="Image 1" width="100" height="100">
+                    </td>
+                    <td>
+                        <label>
+                            <input type="checkbox" name="name_radio" value="filetesPavo"> Filetes de Pavo (500g)
+                        </label>
+                    </td>
+                    <td>
+                        <img src="Fotos/jamonSerrano.jpeg" alt="Image 1" width="100" height="100">
+                    </td>
+                    <td>
+                        <label>
+                            <input type="checkbox" name="name_radio" value="jamonSerrano"> Jamon serrano (200g)
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="Fotos/solomilloCerdo.jpeg" alt="Image 1" width="100" height="100">
+                    </td>
+                    <td>
+                        <label>
+                            <input type="checkbox" name="name_radio" value="SolomilloCerdo"> Solomillo de Cerdo (1kg)
+                        </label>
+                    </td>
+                    <td>
+                        <img src="Fotos/panceta.jpeg" alt="Image 1" width="100" height="100">
+                    </td>
+                    <td>
+                        <label>
+                            <input type="checkbox" name="name_radio" value="Panceta"> Panceta (500g)
+                        </label>
+                    </td>
+                    <td>
+                        <img src="Fotos/muslosPollo.jpeg" alt="Image 1" width="100" height="100">
+                    </td>
+                    <td>
+                        <label>
+                            <input type="checkbox" name="name_radio" value="muslosPollo"> Muslos de Pollo (1kg)
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+
+                    <td>
+                        <img src="Fotos/secretoIberico.jpeg" alt="Image 1" width="100" height="100">
+                    </td>
+                    <td>
+                        <label>
+                            <input type="checkbox" name="name_radio" value="SecretoIberico"> Secreto Iberico (1kg)
+                        </label>
+                    </td>
+                    <td>
+                        <img src="Fotos/lomoAdobado.jpeg" alt="Image 1" width="100" height="100">
+                    </td>
+                    <td>
+                        <label>
+                            <input type="checkbox" name="name_radio" value="lomoAdobado"> Lomo Adobado (1kg)
+                        </label>
+                    </td>
+                    <td>
+                        <img src="Fotos/cecina.jpeg" alt="Image 1" width="100" height="100">
+                    </td>
+                    <td>
+                        <label>
+                            <input type="checkbox" name="name_radio" value="Cecina"> Cecina (200g)
+                        </label>
+                    </td>
+                </tr>
+            </table>
+            </fieldset>
+            <button type="submit">Pagar</button>
+            <p>Se le enviará un correo para finalizar la gestión del pedido.</p>
+        </div>
+
+    </form>
+
+<footer>
+    <p>Número de Carnicería: +34 688 686 481 | Sitio web: www.carniceriapaco.com</p>
+</footer>
+</body>
+
+</html>
