@@ -119,3 +119,13 @@ footer {
     padding: 1%;
     margin-top: 10%;
 }
+
+.product-image {
+    width: 100px; 
+    height: 100px; 
+}
+
+.farm-image {
+    width: 200px; 
+    height: 200px; 
+}
